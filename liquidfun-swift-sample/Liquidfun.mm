@@ -125,7 +125,7 @@ b2Body* createDynamicBody(b2World* world, const CGPoint& pos) {
     return node;
 }
 
--(NSArray*)addWater:(CGPoint)location {
+-(NSArray<SKNode*>*)addWater:(CGPoint)location {
     NSMutableArray* array = [NSMutableArray array];
 
     b2CircleShape ballShape;

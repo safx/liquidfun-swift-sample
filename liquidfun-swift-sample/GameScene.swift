@@ -17,7 +17,7 @@ class GameScene: SKScene {
     }
 
     var count = 0
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         for touch in touches {
             let location = touch.locationInNode(self)
             switch (count % 3) {
