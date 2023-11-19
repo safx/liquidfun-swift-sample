@@ -126,6 +126,9 @@ b2Body* createDynamicBody(b2World* world, const CGPoint& pos) {
 }
 
 -(NSArray<SKNode*>*)addWater:(CGPoint)location {
+    static NSData* data = [NSData dataWithContentsOfFile:[NSBundle.mainBundle pathForResource:@"water" ofType:@"sks"]];
+    static SKEmitterNode* waterNode = [NSKeyedUnarchiver unarchivedObjectOfClass:[SKEmitterNode class] fromData:data error:nil];
+
     NSMutableArray* array = [NSMutableArray array];
 
     b2CircleShape ballShape;
@@ -140,7 +143,7 @@ b2Body* createDynamicBody(b2World* world, const CGPoint& pos) {
     int32 offset = group->GetBufferIndex();
     void** userdata = _particleSystem->GetUserDataBuffer() + offset;
     for (size_t i = 0; i < group->GetParticleCount(); ++i) {
-        SKEmitterNode* node = [NSKeyedUnarchiver unarchiveObjectWithFile:[NSBundle.mainBundle pathForResource:@"water" ofType:@"sks"]];
+        SKEmitterNode* node = [waterNode copy];
         node.position = location;
         [array addObject:node];
         *userdata = (__bridge void*) node;

@@ -12,20 +12,20 @@ import SpriteKit
 class GameScene: SKScene {
     var world: LiquidfunWorld!
 
-    override func didMoveToView(view: SKView) {
+    override func didMove(to view: SKView) {
         world = LiquidfunWorld(width: Float(self.frame.size.width))
     }
 
     var count = 0
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
-            let location = touch.locationInNode(self)
+            let location = touch.location(in: self)
             switch (count % 3) {
             case 0:
-                addChild(world.addBoxWithLocation(location, width: 0.5, height: 0.5))
+                addChild(world.addBox(withLocation: location, width: 0.5, height: 0.5))
                 break
             case 1:
-                addChild(world.addBallWithLocation(location, radius: 0.5))
+                addChild(world.addBall(withLocation: location, radius: 0.5))
                 break
             case 2: fallthrough
             default:
@@ -35,11 +35,11 @@ class GameScene: SKScene {
                 break
             }
         }
-        ++count
+        count += 1
     }
 
     var previousTime: CFTimeInterval = 0
-    override func update(currentTime: CFTimeInterval) {
+    override func update(_ currentTime: CFTimeInterval) {
         let duration = currentTime - previousTime
         previousTime = currentTime
 

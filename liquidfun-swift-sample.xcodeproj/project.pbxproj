@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,34 +38,7 @@
 		8D9E269F1AD0FF3B00906ECD /* b2Stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F01AD0FF3A00906ECD /* b2Stat.cpp */; };
 		8D9E26A01AD0FF3B00906ECD /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F21AD0FF3A00906ECD /* b2Timer.cpp */; };
 		8D9E26A11AD0FF3B00906ECD /* b2TrackedBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F41AD0FF3A00906ECD /* b2TrackedBlock.cpp */; };
-		8D9E26A21AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E25F81AD0FF3A00906ECD /* doxyfile */; };
-		8D9E26A31AD0FF3B00906ECD /* Building.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FA1AD0FF3A00906ECD /* Building.md */; };
-		8D9E26A41AD0FF3B00906ECD /* BuildingAndroid.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FB1AD0FF3A00906ECD /* BuildingAndroid.md */; };
-		8D9E26A51AD0FF3B00906ECD /* BuildingiOS.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FC1AD0FF3A00906ECD /* BuildingiOS.md */; };
-		8D9E26A61AD0FF3B00906ECD /* BuildingJavaScript.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FD1AD0FF3A00906ECD /* BuildingJavaScript.md */; };
-		8D9E26A71AD0FF3B00906ECD /* BuildingLinux.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FE1AD0FF3A00906ECD /* BuildingLinux.md */; };
-		8D9E26A81AD0FF3B00906ECD /* BuildingOSX.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25FF1AD0FF3A00906ECD /* BuildingOSX.md */; };
-		8D9E26A91AD0FF3B00906ECD /* BuildingWindows.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26001AD0FF3A00906ECD /* BuildingWindows.md */; };
-		8D9E26AA1AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26011AD0FF3A00906ECD /* doxyfile */; };
-		8D9E26AB1AD0FF3B00906ECD /* PortingFromBox2D.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26021AD0FF3A00906ECD /* PortingFromBox2D.md */; };
 		8D9E26AC1AD0FF3B00906ECD /* footer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26031AD0FF3A00906ECD /* footer.html */; };
-		8D9E26AD1AD0FF3B00906ECD /* Chapter01_Introduction.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26051AD0FF3A00906ECD /* Chapter01_Introduction.md */; };
-		8D9E26AE1AD0FF3B00906ECD /* Chapter02_Hello_Box2D.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26061AD0FF3A00906ECD /* Chapter02_Hello_Box2D.md */; };
-		8D9E26AF1AD0FF3B00906ECD /* Chapter03_Common.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26071AD0FF3A00906ECD /* Chapter03_Common.md */; };
-		8D9E26B01AD0FF3B00906ECD /* Chapter04_Collision_Module.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26081AD0FF3A00906ECD /* Chapter04_Collision_Module.md */; };
-		8D9E26B11AD0FF3B00906ECD /* Chapter05_Dynamics_Module.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26091AD0FF3A00906ECD /* Chapter05_Dynamics_Module.md */; };
-		8D9E26B21AD0FF3B00906ECD /* Chapter06_Bodies.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260A1AD0FF3A00906ECD /* Chapter06_Bodies.md */; };
-		8D9E26B31AD0FF3B00906ECD /* Chapter07_Fixtures.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260B1AD0FF3A00906ECD /* Chapter07_Fixtures.md */; };
-		8D9E26B41AD0FF3B00906ECD /* Chapter08_Joints.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260C1AD0FF3A00906ECD /* Chapter08_Joints.md */; };
-		8D9E26B51AD0FF3B00906ECD /* Chapter09_Contacts.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260D1AD0FF3A00906ECD /* Chapter09_Contacts.md */; };
-		8D9E26B61AD0FF3B00906ECD /* Chapter10_World.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260E1AD0FF3A00906ECD /* Chapter10_World.md */; };
-		8D9E26B71AD0FF3B00906ECD /* Chapter11_Particles.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E260F1AD0FF3A00906ECD /* Chapter11_Particles.md */; };
-		8D9E26B81AD0FF3B00906ECD /* Chapter12_Loose_Ends.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26101AD0FF3A00906ECD /* Chapter12_Loose_Ends.md */; };
-		8D9E26B91AD0FF3B00906ECD /* Chapter13_Debug_Drawing.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26111AD0FF3A00906ECD /* Chapter13_Debug_Drawing.md */; };
-		8D9E26BA1AD0FF3B00906ECD /* Chapter14_Limitations.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26121AD0FF3A00906ECD /* Chapter14_Limitations.md */; };
-		8D9E26BB1AD0FF3B00906ECD /* Chapter15_References.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26131AD0FF3A00906ECD /* Chapter15_References.md */; };
-		8D9E26BC1AD0FF3B00906ECD /* ContentLicense.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26141AD0FF3A00906ECD /* ContentLicense.md */; };
-		8D9E26BD1AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26151AD0FF3A00906ECD /* doxyfile */; };
 		8D9E26BE1AD0FF3B00906ECD /* image_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26161AD0FF3A00906ECD /* image_0.png */; };
 		8D9E26BF1AD0FF3B00906ECD /* image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26171AD0FF3A00906ECD /* image_1.png */; };
 		8D9E26C01AD0FF3B00906ECD /* image_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26181AD0FF3A00906ECD /* image_10.png */; };
@@ -96,14 +69,6 @@
 		8D9E26D91AD0FF3B00906ECD /* liquidfun-logo-square-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26311AD0FF3A00906ECD /* liquidfun-logo-square-small.png */; };
 		8D9E26DA1AD0FF3B00906ECD /* liquidfun-logo.ai in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26321AD0FF3A00906ECD /* liquidfun-logo.ai */; };
 		8D9E26DB1AD0FF3B00906ECD /* liquidfun-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26331AD0FF3A00906ECD /* liquidfun-logo.png */; };
-		8D9E26DC1AD0FF3B00906ECD /* Logo.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26341AD0FF3A00906ECD /* Logo.md */; };
-		8D9E26DD1AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26361AD0FF3A00906ECD /* doxyfile */; };
-		8D9E26DE1AD0FF3B00906ECD /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26371AD0FF3A00906ECD /* jquery.js */; };
-		8D9E26DF1AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26391AD0FF3A00906ECD /* doxyfile */; };
-		8D9E26E01AD0FF3B00906ECD /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E263A1AD0FF3B00906ECD /* jquery.js */; };
-		8D9E26E11AD0FF3B00906ECD /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E263C1AD0FF3B00906ECD /* doxyfile */; };
-		8D9E26E21AD0FF3B00906ECD /* GettingStarted.md in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E263D1AD0FF3B00906ECD /* GettingStarted.md */; };
-		8D9E26E31AD0FF3B00906ECD /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E263E1AD0FF3B00906ECD /* jquery.js */; };
 		8D9E26E41AD0FF3B00906ECD /* liquidfunpaint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E263F1AD0FF3B00906ECD /* liquidfunpaint.jpg */; };
 		8D9E26E51AD0FF3B00906ECD /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26411AD0FF3B00906ECD /* b2Body.cpp */; };
 		8D9E26E61AD0FF3B00906ECD /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E26431AD0FF3B00906ECD /* b2ContactManager.cpp */; };
@@ -214,34 +179,6 @@
 		8D9E25F31AD0FF3A00906ECD /* b2Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Timer.h; sourceTree = "<group>"; };
 		8D9E25F41AD0FF3A00906ECD /* b2TrackedBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2TrackedBlock.cpp; sourceTree = "<group>"; };
 		8D9E25F51AD0FF3A00906ECD /* b2TrackedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TrackedBlock.h; sourceTree = "<group>"; };
-		8D9E25F81AD0FF3A00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
-		8D9E25FA1AD0FF3A00906ECD /* Building.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Building.md; sourceTree = "<group>"; };
-		8D9E25FB1AD0FF3A00906ECD /* BuildingAndroid.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingAndroid.md; sourceTree = "<group>"; };
-		8D9E25FC1AD0FF3A00906ECD /* BuildingiOS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingiOS.md; sourceTree = "<group>"; };
-		8D9E25FD1AD0FF3A00906ECD /* BuildingJavaScript.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingJavaScript.md; sourceTree = "<group>"; };
-		8D9E25FE1AD0FF3A00906ECD /* BuildingLinux.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingLinux.md; sourceTree = "<group>"; };
-		8D9E25FF1AD0FF3A00906ECD /* BuildingOSX.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingOSX.md; sourceTree = "<group>"; };
-		8D9E26001AD0FF3A00906ECD /* BuildingWindows.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BuildingWindows.md; sourceTree = "<group>"; };
-		8D9E26011AD0FF3A00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
-		8D9E26021AD0FF3A00906ECD /* PortingFromBox2D.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PortingFromBox2D.md; sourceTree = "<group>"; };
-		8D9E26031AD0FF3A00906ECD /* footer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; path = footer.html; sourceTree = "<group>"; };
-		8D9E26051AD0FF3A00906ECD /* Chapter01_Introduction.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter01_Introduction.md; sourceTree = "<group>"; };
-		8D9E26061AD0FF3A00906ECD /* Chapter02_Hello_Box2D.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter02_Hello_Box2D.md; sourceTree = "<group>"; };
-		8D9E26071AD0FF3A00906ECD /* Chapter03_Common.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter03_Common.md; sourceTree = "<group>"; };
-		8D9E26081AD0FF3A00906ECD /* Chapter04_Collision_Module.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter04_Collision_Module.md; sourceTree = "<group>"; };
-		8D9E26091AD0FF3A00906ECD /* Chapter05_Dynamics_Module.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter05_Dynamics_Module.md; sourceTree = "<group>"; };
-		8D9E260A1AD0FF3A00906ECD /* Chapter06_Bodies.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter06_Bodies.md; sourceTree = "<group>"; };
-		8D9E260B1AD0FF3A00906ECD /* Chapter07_Fixtures.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter07_Fixtures.md; sourceTree = "<group>"; };
-		8D9E260C1AD0FF3A00906ECD /* Chapter08_Joints.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter08_Joints.md; sourceTree = "<group>"; };
-		8D9E260D1AD0FF3A00906ECD /* Chapter09_Contacts.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter09_Contacts.md; sourceTree = "<group>"; };
-		8D9E260E1AD0FF3A00906ECD /* Chapter10_World.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter10_World.md; sourceTree = "<group>"; };
-		8D9E260F1AD0FF3A00906ECD /* Chapter11_Particles.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter11_Particles.md; sourceTree = "<group>"; };
-		8D9E26101AD0FF3A00906ECD /* Chapter12_Loose_Ends.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter12_Loose_Ends.md; sourceTree = "<group>"; };
-		8D9E26111AD0FF3A00906ECD /* Chapter13_Debug_Drawing.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter13_Debug_Drawing.md; sourceTree = "<group>"; };
-		8D9E26121AD0FF3A00906ECD /* Chapter14_Limitations.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter14_Limitations.md; sourceTree = "<group>"; };
-		8D9E26131AD0FF3A00906ECD /* Chapter15_References.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter15_References.md; sourceTree = "<group>"; };
-		8D9E26141AD0FF3A00906ECD /* ContentLicense.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ContentLicense.md; sourceTree = "<group>"; };
-		8D9E26151AD0FF3A00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
 		8D9E26161AD0FF3A00906ECD /* image_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_0.png; sourceTree = "<group>"; };
 		8D9E26171AD0FF3A00906ECD /* image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_1.png; sourceTree = "<group>"; };
 		8D9E26181AD0FF3A00906ECD /* image_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_10.png; sourceTree = "<group>"; };
@@ -272,14 +209,6 @@
 		8D9E26311AD0FF3A00906ECD /* liquidfun-logo-square-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liquidfun-logo-square-small.png"; sourceTree = "<group>"; };
 		8D9E26321AD0FF3A00906ECD /* liquidfun-logo.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "liquidfun-logo.ai"; sourceTree = "<group>"; };
 		8D9E26331AD0FF3A00906ECD /* liquidfun-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liquidfun-logo.png"; sourceTree = "<group>"; };
-		8D9E26341AD0FF3A00906ECD /* Logo.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Logo.md; sourceTree = "<group>"; };
-		8D9E26361AD0FF3A00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
-		8D9E26371AD0FF3A00906ECD /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		8D9E26391AD0FF3A00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
-		8D9E263A1AD0FF3B00906ECD /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		8D9E263C1AD0FF3B00906ECD /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
-		8D9E263D1AD0FF3B00906ECD /* GettingStarted.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GettingStarted.md; sourceTree = "<group>"; };
-		8D9E263E1AD0FF3B00906ECD /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		8D9E263F1AD0FF3B00906ECD /* liquidfunpaint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liquidfunpaint.jpg; sourceTree = "<group>"; };
 		8D9E26411AD0FF3B00906ECD /* b2Body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Body.cpp; sourceTree = "<group>"; };
 		8D9E26421AD0FF3B00906ECD /* b2Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Body.h; sourceTree = "<group>"; };
@@ -540,7 +469,6 @@
 		8D9E25F71AD0FF3A00906ECD /* API-Ref */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E25F81AD0FF3A00906ECD /* doxyfile */,
 			);
 			path = "API-Ref";
 			sourceTree = "<group>";
@@ -548,15 +476,6 @@
 		8D9E25F91AD0FF3A00906ECD /* Building */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E25FA1AD0FF3A00906ECD /* Building.md */,
-				8D9E25FB1AD0FF3A00906ECD /* BuildingAndroid.md */,
-				8D9E25FC1AD0FF3A00906ECD /* BuildingiOS.md */,
-				8D9E25FD1AD0FF3A00906ECD /* BuildingJavaScript.md */,
-				8D9E25FE1AD0FF3A00906ECD /* BuildingLinux.md */,
-				8D9E25FF1AD0FF3A00906ECD /* BuildingOSX.md */,
-				8D9E26001AD0FF3A00906ECD /* BuildingWindows.md */,
-				8D9E26011AD0FF3A00906ECD /* doxyfile */,
-				8D9E26021AD0FF3A00906ECD /* PortingFromBox2D.md */,
 			);
 			path = Building;
 			sourceTree = "<group>";
@@ -564,23 +483,6 @@
 		8D9E26041AD0FF3A00906ECD /* Programmers-Guide */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E26051AD0FF3A00906ECD /* Chapter01_Introduction.md */,
-				8D9E26061AD0FF3A00906ECD /* Chapter02_Hello_Box2D.md */,
-				8D9E26071AD0FF3A00906ECD /* Chapter03_Common.md */,
-				8D9E26081AD0FF3A00906ECD /* Chapter04_Collision_Module.md */,
-				8D9E26091AD0FF3A00906ECD /* Chapter05_Dynamics_Module.md */,
-				8D9E260A1AD0FF3A00906ECD /* Chapter06_Bodies.md */,
-				8D9E260B1AD0FF3A00906ECD /* Chapter07_Fixtures.md */,
-				8D9E260C1AD0FF3A00906ECD /* Chapter08_Joints.md */,
-				8D9E260D1AD0FF3A00906ECD /* Chapter09_Contacts.md */,
-				8D9E260E1AD0FF3A00906ECD /* Chapter10_World.md */,
-				8D9E260F1AD0FF3A00906ECD /* Chapter11_Particles.md */,
-				8D9E26101AD0FF3A00906ECD /* Chapter12_Loose_Ends.md */,
-				8D9E26111AD0FF3A00906ECD /* Chapter13_Debug_Drawing.md */,
-				8D9E26121AD0FF3A00906ECD /* Chapter14_Limitations.md */,
-				8D9E26131AD0FF3A00906ECD /* Chapter15_References.md */,
-				8D9E26141AD0FF3A00906ECD /* ContentLicense.md */,
-				8D9E26151AD0FF3A00906ECD /* doxyfile */,
 				8D9E26161AD0FF3A00906ECD /* image_0.png */,
 				8D9E26171AD0FF3A00906ECD /* image_1.png */,
 				8D9E26181AD0FF3A00906ECD /* image_10.png */,
@@ -611,7 +513,6 @@
 				8D9E26311AD0FF3A00906ECD /* liquidfun-logo-square-small.png */,
 				8D9E26321AD0FF3A00906ECD /* liquidfun-logo.ai */,
 				8D9E26331AD0FF3A00906ECD /* liquidfun-logo.png */,
-				8D9E26341AD0FF3A00906ECD /* Logo.md */,
 			);
 			path = "Programmers-Guide";
 			sourceTree = "<group>";
@@ -619,8 +520,6 @@
 		8D9E26351AD0FF3A00906ECD /* Readme */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E26361AD0FF3A00906ECD /* doxyfile */,
-				8D9E26371AD0FF3A00906ECD /* jquery.js */,
 			);
 			path = Readme;
 			sourceTree = "<group>";
@@ -628,8 +527,6 @@
 		8D9E26381AD0FF3A00906ECD /* ReleaseNotes */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E26391AD0FF3A00906ECD /* doxyfile */,
-				8D9E263A1AD0FF3B00906ECD /* jquery.js */,
 			);
 			path = ReleaseNotes;
 			sourceTree = "<group>";
@@ -637,9 +534,6 @@
 		8D9E263B1AD0FF3B00906ECD /* SWIG */ = {
 			isa = PBXGroup;
 			children = (
-				8D9E263C1AD0FF3B00906ECD /* doxyfile */,
-				8D9E263D1AD0FF3B00906ECD /* GettingStarted.md */,
-				8D9E263E1AD0FF3B00906ECD /* jquery.js */,
 				8D9E263F1AD0FF3B00906ECD /* liquidfunpaint.jpg */,
 			);
 			path = SWIG;
@@ -794,23 +688,26 @@
 		8D9E25921AD0FE2400906ECD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftMigration = 0710;
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Safx Developers";
 				TargetAttributes = {
 					8D9E25991AD0FE2400906ECD = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = "";
 					};
 					8D9E25B21AD0FE2400906ECD = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = "";
 						TestTargetID = 8D9E25991AD0FE2400906ECD;
 					};
 				};
 			};
 			buildConfigurationList = 8D9E25951AD0FE2400906ECD /* Build configuration list for PBXProject "liquidfun-swift-sample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -844,29 +741,21 @@
 				8D9E26D81AD0FF3B00906ECD /* liquidfun-logo-small.png in Resources */,
 				8D9E26CF1AD0FF3B00906ECD /* image_24.png in Resources */,
 				8D9E26DA1AD0FF3B00906ECD /* liquidfun-logo.ai in Resources */,
-				8D9E26DE1AD0FF3B00906ECD /* jquery.js in Resources */,
 				8D9E26D21AD0FF3B00906ECD /* image_5.png in Resources */,
 				8D9E26CD1AD0FF3B00906ECD /* image_22.gif in Resources */,
 				8D9E26BE1AD0FF3B00906ECD /* image_0.png in Resources */,
 				8D9E26C31AD0FF3B00906ECD /* image_13.png in Resources */,
 				8D9E26CC1AD0FF3B00906ECD /* image_21.gif in Resources */,
 				8D9E26BF1AD0FF3B00906ECD /* image_1.png in Resources */,
-				8D9E26BD1AD0FF3B00906ECD /* doxyfile in Resources */,
-				8D9E26DD1AD0FF3B00906ECD /* doxyfile in Resources */,
 				8D9E26C51AD0FF3B00906ECD /* image_15.png in Resources */,
-				8D9E26DF1AD0FF3B00906ECD /* doxyfile in Resources */,
-				8D9E26AA1AD0FF3B00906ECD /* doxyfile in Resources */,
 				8D9E26AC1AD0FF3B00906ECD /* footer.html in Resources */,
 				8D9E26C61AD0FF3B00906ECD /* image_16.png in Resources */,
-				8D9E26E31AD0FF3B00906ECD /* jquery.js in Resources */,
 				8D9E25A21AD0FE2400906ECD /* GameScene.sks in Resources */,
 				8D9E25A91AD0FE2400906ECD /* Main.storyboard in Resources */,
 				8D9E26D31AD0FF3B00906ECD /* image_6.png in Resources */,
-				8D9E26E11AD0FF3B00906ECD /* doxyfile in Resources */,
 				8D9E26D41AD0FF3B00906ECD /* image_7.png in Resources */,
 				8D9E26C11AD0FF3B00906ECD /* image_11.png in Resources */,
 				8D9E26C91AD0FF3B00906ECD /* image_19.gif in Resources */,
-				8D9E26E01AD0FF3B00906ECD /* jquery.js in Resources */,
 				8D9E26E41AD0FF3B00906ECD /* liquidfunpaint.jpg in Resources */,
 				8D9E26C21AD0FF3B00906ECD /* image_12.png in Resources */,
 				8D9E26C71AD0FF3B00906ECD /* image_17.png in Resources */,
@@ -879,7 +768,6 @@
 				8D9E26C01AD0FF3B00906ECD /* image_10.png in Resources */,
 				8D9E27111AD1207900906ECD /* spark.png in Resources */,
 				8D9E26DB1AD0FF3B00906ECD /* liquidfun-logo.png in Resources */,
-				8D9E26A21AD0FF3B00906ECD /* doxyfile in Resources */,
 				8D9E26C81AD0FF3B00906ECD /* image_18.gif in Resources */,
 				8D9E26D91AD0FF3B00906ECD /* liquidfun-logo-square-small.png in Resources */,
 			);
@@ -899,8 +787,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9E26A71AD0FF3B00906ECD /* BuildingLinux.md in Sources */,
-				8D9E26B91AD0FF3B00906ECD /* Chapter13_Debug_Drawing.md in Sources */,
 				8D9E26961AD0FF3B00906ECD /* b2CircleShape.cpp in Sources */,
 				8D9E26E91AD0FF3B00906ECD /* b2World.cpp in Sources */,
 				8D9E269F1AD0FF3B00906ECD /* b2Stat.cpp in Sources */,
@@ -910,79 +796,55 @@
 				8D9E25A41AD0FE2400906ECD /* GameScene.swift in Sources */,
 				8D9E27061AD0FF3B00906ECD /* b2Rope.cpp in Sources */,
 				8D9E26FA1AD0FF3B00906ECD /* b2PrismaticJoint.cpp in Sources */,
-				8D9E26AE1AD0FF3B00906ECD /* Chapter02_Hello_Box2D.md in Sources */,
 				8D9E27001AD0FF3B00906ECD /* b2Particle.cpp in Sources */,
 				8D9E26921AD0FF3B00906ECD /* b2Distance.cpp in Sources */,
 				8D9E26F31AD0FF3B00906ECD /* b2PolygonContact.cpp in Sources */,
-				8D9E26B71AD0FF3B00906ECD /* Chapter11_Particles.md in Sources */,
 				8D9E26EE1AD0FF3B00906ECD /* b2Contact.cpp in Sources */,
-				8D9E26AF1AD0FF3B00906ECD /* Chapter03_Common.md in Sources */,
 				8D9E26F51AD0FF3B00906ECD /* b2FrictionJoint.cpp in Sources */,
 				8D9E270D1AD1054B00906ECD /* Liquidfun.mm in Sources */,
-				8D9E26B21AD0FF3B00906ECD /* Chapter06_Bodies.md in Sources */,
 				8D9E26F91AD0FF3B00906ECD /* b2MouseJoint.cpp in Sources */,
-				8D9E26E21AD0FF3B00906ECD /* GettingStarted.md in Sources */,
 				8D9E26EC1AD0FF3B00906ECD /* b2ChainAndPolygonContact.cpp in Sources */,
-				8D9E26A61AD0FF3B00906ECD /* BuildingJavaScript.md in Sources */,
 				8D9E26931AD0FF3B00906ECD /* b2DynamicTree.cpp in Sources */,
-				8D9E26AB1AD0FF3B00906ECD /* PortingFromBox2D.md in Sources */,
-				8D9E26BC1AD0FF3B00906ECD /* ContentLicense.md in Sources */,
-				8D9E26B11AD0FF3B00906ECD /* Chapter05_Dynamics_Module.md in Sources */,
 				8D9E26991AD0FF3B00906ECD /* b2BlockAllocator.cpp in Sources */,
 				8D9E269A1AD0FF3B00906ECD /* b2Draw.cpp in Sources */,
-				8D9E26B41AD0FF3B00906ECD /* Chapter08_Joints.md in Sources */,
-				8D9E26A91AD0FF3B00906ECD /* BuildingWindows.md in Sources */,
 				8D9E26A11AD0FF3B00906ECD /* b2TrackedBlock.cpp in Sources */,
 				8D9E25A61AD0FE2400906ECD /* GameViewController.swift in Sources */,
 				8D9E269C1AD0FF3B00906ECD /* b2Math.cpp in Sources */,
 				8D9E26F61AD0FF3B00906ECD /* b2GearJoint.cpp in Sources */,
 				8D9E26E61AD0FF3B00906ECD /* b2ContactManager.cpp in Sources */,
 				8D9E26981AD0FF3B00906ECD /* b2PolygonShape.cpp in Sources */,
-				8D9E26BA1AD0FF3B00906ECD /* Chapter14_Limitations.md in Sources */,
 				8D9E26E51AD0FF3B00906ECD /* b2Body.cpp in Sources */,
 				8D9E26941AD0FF3B00906ECD /* b2TimeOfImpact.cpp in Sources */,
 				8D9E26ED1AD0FF3B00906ECD /* b2CircleContact.cpp in Sources */,
-				8D9E26B01AD0FF3B00906ECD /* Chapter04_Collision_Module.md in Sources */,
 				8D9E26F41AD0FF3B00906ECD /* b2DistanceJoint.cpp in Sources */,
 				8D9E268E1AD0FF3B00906ECD /* b2CollideCircle.cpp in Sources */,
 				8D9E268D1AD0FF3B00906ECD /* b2BroadPhase.cpp in Sources */,
-				8D9E26B81AD0FF3B00906ECD /* Chapter12_Loose_Ends.md in Sources */,
 				8D9E26F71AD0FF3B00906ECD /* b2Joint.cpp in Sources */,
 				8D9E26FC1AD0FF3B00906ECD /* b2RevoluteJoint.cpp in Sources */,
 				8D9E25A01AD0FE2400906ECD /* AppDelegate.swift in Sources */,
 				8D9E26FD1AD0FF3B00906ECD /* b2RopeJoint.cpp in Sources */,
 				8D9E26EB1AD0FF3B00906ECD /* b2ChainAndCircleContact.cpp in Sources */,
-				8D9E26A51AD0FF3B00906ECD /* BuildingiOS.md in Sources */,
-				8D9E26BB1AD0FF3B00906ECD /* Chapter15_References.md in Sources */,
 				8D9E27031AD0FF3B00906ECD /* b2ParticleGroup.cpp in Sources */,
-				8D9E26A41AD0FF3B00906ECD /* BuildingAndroid.md in Sources */,
 				8D9E26E71AD0FF3B00906ECD /* b2Fixture.cpp in Sources */,
 				8D9E26E81AD0FF3B00906ECD /* b2Island.cpp in Sources */,
 				8D9E26A01AD0FF3B00906ECD /* b2Timer.cpp in Sources */,
 				8D9E27041AD0FF3B00906ECD /* b2ParticleSystem.cpp in Sources */,
 				8D9E26EA1AD0FF3B00906ECD /* b2WorldCallbacks.cpp in Sources */,
 				8D9E269E1AD0FF3B00906ECD /* b2StackAllocator.cpp in Sources */,
-				8D9E26B61AD0FF3B00906ECD /* Chapter10_World.md in Sources */,
-				8D9E26DC1AD0FF3B00906ECD /* Logo.md in Sources */,
-				8D9E26AD1AD0FF3B00906ECD /* Chapter01_Introduction.md in Sources */,
-				8D9E26B51AD0FF3B00906ECD /* Chapter09_Contacts.md in Sources */,
 				8D9E27011AD0FF3B00906ECD /* b2ParticleAssembly.cpp in Sources */,
 				8D9E27051AD0FF3B00906ECD /* b2VoronoiDiagram.cpp in Sources */,
 				8D9E26951AD0FF3B00906ECD /* b2ChainShape.cpp in Sources */,
 				8D9E26901AD0FF3B00906ECD /* b2CollidePolygon.cpp in Sources */,
 				8D9E26FE1AD0FF3B00906ECD /* b2WeldJoint.cpp in Sources */,
-				8D9E26A31AD0FF3B00906ECD /* Building.md in Sources */,
 				8D9E26FB1AD0FF3B00906ECD /* b2PulleyJoint.cpp in Sources */,
 				8D9E269D1AD0FF3B00906ECD /* b2Settings.cpp in Sources */,
 				8D9E26971AD0FF3B00906ECD /* b2EdgeShape.cpp in Sources */,
 				8D9E26EF1AD0FF3B00906ECD /* b2ContactSolver.cpp in Sources */,
 				8D9E26F21AD0FF3B00906ECD /* b2PolygonAndCircleContact.cpp in Sources */,
-				8D9E26A81AD0FF3B00906ECD /* BuildingOSX.md in Sources */,
 				8D9E268F1AD0FF3B00906ECD /* b2CollideEdge.cpp in Sources */,
 				8D9E269B1AD0FF3B00906ECD /* b2FreeList.cpp in Sources */,
 				8D9E26F81AD0FF3B00906ECD /* b2MotorJoint.cpp in Sources */,
 				8D9E26FF1AD0FF3B00906ECD /* b2WheelJoint.cpp in Sources */,
-				8D9E26B31AD0FF3B00906ECD /* Chapter07_Fixtures.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1028,24 +890,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1063,7 +940,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/liquidfun/liquidfun/Box2D",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1076,24 +953,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1105,9 +996,10 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/liquidfun/liquidfun/Box2D",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1118,9 +1010,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "liquidfun-swift-sample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1129,9 +1027,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "liquidfun-swift-sample/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1148,8 +1052,14 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "liquidfun-swift-sampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidfun-swift-sample.app/liquidfun-swift-sample";
 			};
 			name = Debug;
@@ -1163,8 +1073,14 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "liquidfun-swift-sampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidfun-swift-sample.app/liquidfun-swift-sample";
 			};
 			name = Release;
