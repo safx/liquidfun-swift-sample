@@ -38,7 +38,7 @@
 		8D9E269F1AD0FF3B00906ECD /* b2Stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F01AD0FF3A00906ECD /* b2Stat.cpp */; };
 		8D9E26A01AD0FF3B00906ECD /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F21AD0FF3A00906ECD /* b2Timer.cpp */; };
 		8D9E26A11AD0FF3B00906ECD /* b2TrackedBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D9E25F41AD0FF3A00906ECD /* b2TrackedBlock.cpp */; };
-		8D9E26AC1AD0FF3B00906ECD /* footer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26031AD0FF3A00906ECD /* footer.html */; };
+		8D9E26AC1AD0FF3B00906ECD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		8D9E26BE1AD0FF3B00906ECD /* image_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26161AD0FF3A00906ECD /* image_0.png */; };
 		8D9E26BF1AD0FF3B00906ECD /* image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26171AD0FF3A00906ECD /* image_1.png */; };
 		8D9E26C01AD0FF3B00906ECD /* image_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E26181AD0FF3A00906ECD /* image_10.png */; };
@@ -457,7 +457,6 @@
 			children = (
 				8D9E25F71AD0FF3A00906ECD /* API-Ref */,
 				8D9E25F91AD0FF3A00906ECD /* Building */,
-				8D9E26031AD0FF3A00906ECD /* footer.html */,
 				8D9E26041AD0FF3A00906ECD /* Programmers-Guide */,
 				8D9E26351AD0FF3A00906ECD /* Readme */,
 				8D9E26381AD0FF3A00906ECD /* ReleaseNotes */,
@@ -696,11 +695,11 @@
 				TargetAttributes = {
 					8D9E25991AD0FE2400906ECD = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1500;
 					};
 					8D9E25B21AD0FE2400906ECD = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = "";
+						LastSwiftMigration = 1500;
 						TestTargetID = 8D9E25991AD0FE2400906ECD;
 					};
 				};
@@ -748,7 +747,7 @@
 				8D9E26CC1AD0FF3B00906ECD /* image_21.gif in Resources */,
 				8D9E26BF1AD0FF3B00906ECD /* image_1.png in Resources */,
 				8D9E26C51AD0FF3B00906ECD /* image_15.png in Resources */,
-				8D9E26AC1AD0FF3B00906ECD /* footer.html in Resources */,
+				8D9E26AC1AD0FF3B00906ECD /* (null) in Resources */,
 				8D9E26C61AD0FF3B00906ECD /* image_16.png in Resources */,
 				8D9E25A21AD0FE2400906ECD /* GameScene.sks in Resources */,
 				8D9E25A91AD0FE2400906ECD /* Main.storyboard in Resources */,
@@ -1018,7 +1017,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1035,7 +1034,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1059,7 +1058,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidfun-swift-sample.app/liquidfun-swift-sample";
 			};
 			name = Debug;
@@ -1080,7 +1079,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.safx-dev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liquidfun-swift-sample.app/liquidfun-swift-sample";
 			};
 			name = Release;

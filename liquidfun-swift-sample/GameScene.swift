@@ -29,9 +29,7 @@ class GameScene: SKScene {
                 break
             case 2: fallthrough
             default:
-                for i in world.addWater(location) as [SKNode] {
-                    addChild(i)
-                }
+                world.addWater(location).forEach(addChild)
                 break
             }
         }
